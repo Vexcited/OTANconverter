@@ -1,0 +1,30 @@
+{
+  "name": "arkose-bda",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build"
+  },
+  "dependencies": {
+    "@noble/ciphers": "^1.2.1",
+    "@noble/hashes": "^1.7.2",
+    "@scure/base": "^1.2.4",
+    "@unocss/reset": "66.1.0-beta.11",
+    "solid-js": "^1.9.5",
+    "solid-toast": "^0.5.0"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.37",
+    "typescript": "~5.8.3",
+    "unocss": "66.1.0-beta.11",
+    "unocss-catppuccin": "^2.0.1",
+    "unplugin-icons": "^22.1.0",
+    "vite": "^6.2.6",
+    "vite-plugin-solid": "^2.11.6"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
